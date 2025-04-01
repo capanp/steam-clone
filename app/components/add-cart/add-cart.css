@@ -1,0 +1,12 @@
+.purchase-button {
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #d2efa9;
+    background: #6fa720;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+}

@@ -1,0 +1,83 @@
+.review-top-container {
+    display: block;
+    margin: 10px 0 0;
+    background-color: #2a475e;
+    box-shadow: 0 0 5px #000;
+    width: 100%;
+}
+
+.total-text {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 10px 5px;
+    margin-bottom: 5px;
+    color: #e5e5e5;
+}
+
+.count-text {
+    padding: 5px 10px 10px;
+    cursor: help;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 9px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    color: #8ba6b6;
+}
+
+.count-text span {
+    font-size: 12px;
+}
+
+.review-filter-container {
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 30px;
+    background-color: #1f2f42;
+    z-index: -1;
+}
+
+.review-filter-menu {
+    border-left: 1px solid #2a475e;
+    position: relative;
+    float: left;
+    padding-right: 10px;
+}
+
+.review-filter-title {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #4582a5;
+    padding: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-image: url(/btn_arrow_down_padded.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.review-filter-text {
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #c6d4df;
+    margin-bottom: 10px;
+}
+
+.review-filter-text span {
+    font-weight: bold;
+}
+
+.black-line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.total-review-text {
+    width: 100%;
+    margin: 30px 0;
+    color: #e5e5e5;
+    text-align: center;
+    font-size: 24px;
+}

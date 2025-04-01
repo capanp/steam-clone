@@ -1,0 +1,14 @@
+{
+    "os": "Windows 8.1 64-bit | Windows 10 64-bit",
+    "cpu": "Intel Core i7-3770 | AMD FX-9590",
+    "ram": "10 GB RAM",
+    "gpu": "NVIDIA GeForce GTX 970 | AMD Radeon R9 290",
+    "directx": "Sürüm 11",
+    "storge": "20 GB kullanılabilir alan",
+    "recOs": "Windows 10 64-bit",
+    "recCpu": "Intel Core i7-4790K | AMD Ryzen 5 1600",
+    "recRam": "16 GB RAM",
+    "recGpu": "NVIDIA GeForce GTX 1070 | AMD Radeon RX 580",
+    "recDirectx": "Sürüm 11",
+    "recStorge": "20 GB kullanılabilir alan"
+}

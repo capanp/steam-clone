@@ -1,0 +1,99 @@
+body {
+    background: radial-gradient(30% 40% at 40% 30%, rgba(33, 36, 41, .5) 0%, rgba(33, 36, 41, 0) 100%) no-repeat, url(/acct_creation_bg.jpg) -45vw 0 no-repeat, #212429;
+    background-position: -20vw 0;
+}
+
+.create-account-form {
+    width: 600px;
+    padding: 20px 16px;
+    color: #b8b6b4;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 50px 0;
+}
+
+.title {
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.checkbox-container {
+    line-height: 20px;
+}
+
+.form-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 30px 0;
+}
+
+.select-country {
+    background: #32353C;
+    border-radius: 3px;
+    color: #E9E9E9;
+    padding: 8px 6px;
+    display: block;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    transition: border ease-in-out .5s;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.create-account-button {
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #c3e1f8;
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 35px;
+}
+
+.create-account-button:hover {
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+}
+
+.create-account-button span {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 3px 50px;
+}
+
+input {
+    background: #32353C;
+    border-radius: 3px;
+    color: #E9E9E9;
+    padding: 8px 0;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    transition: border ease-in-out .5s;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    text-indent: 10px;
+}
+
+.checkbox-container input, .checkbox-container label {
+    width: auto;
+}
+
+@media (max-width: 910px) {
+    .create-account-form {
+        width: auto;
+    }
+  }

@@ -1,0 +1,4 @@
+.wrap {
+    width: 100%;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, rgb(24, 26, 33) 100%) no-repeat fixed, url('/login-background.jpg') center top no-repeat #181A21;
+}

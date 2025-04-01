@@ -1,0 +1,14 @@
+{
+    "os": "Windows 7 64-bit | Windows 8 64-bit | Windows 10 64-bit",
+    "cpu": "Intel Core i5-2500K | AMD Ryzen 3 1200",
+    "ram": "8 GB RAM",
+    "gpu": "NVIDIA GeForce GTX 970 | AMD Radeon RX 470",
+    "directx": "Sürüm 11",
+    "storge": "50 GB kullanılabilir alan",
+    "recOs": "Windows 10 64-bit",
+    "recCpu": "Intel Core i7-6700K | AMD Ryzen 5 1600",
+    "recRam": "16 GB RAM",
+    "recGpu": "NVIDIA GeForce GTX 1080 | AMD Radeon RX Vega 56",
+    "recDirectx": "Sürüm 11",
+    "recStorge": "50 GB kullanılabilir alan"
+}

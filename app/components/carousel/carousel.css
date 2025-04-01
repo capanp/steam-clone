@@ -1,0 +1,199 @@
+.carousel-wrap {
+    width: 1100px;
+    background: url(../../assets/cluster_bg.png) bottom center no-repeat;
+    padding-bottom: 22px;
+}
+
+.home-carousel {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-content {
+    height: 353px;
+    box-shadow: 0 0 7px 0px #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 333px;
+    padding: 10px 20px;
+    width: 100vh;
+    background-image: url(../../assets/background_maincap_2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #fff;
+    overflow: hidden;
+}
+
+.carousel-top h1 {
+    font-size: 24px;
+    margin: 15px 0px;
+    line-height: 26px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+}
+
+.top-reason {
+    font-size: 21px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.carousel-images {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.carousel-images>img:first-child {
+    margin-right: 8px;
+}
+
+.carousel-images img {
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.6;
+}
+
+.sold-tag {
+    margin: 8px 0;
+    display: inline-block;
+    margin-right: 14px;
+    line-height: 19px;
+    padding: 0 7px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+}
+
+.carousel-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-price, .platform-logo {
+    font-size: 11px;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+.carousel-image {
+    flex-shrink: 0;
+    background-color: #000;
+    z-index: 2;
+    width: 616px;
+    height: 353px;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 0 10px 5px #000;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hided {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.carousel-thumbs {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    position: absolute;
+    top: calc(194.5px - 54px);
+    width: 23px;
+    height: 36px;
+    padding: 36px 11px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.left {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0) 95%);
+    left: -45px;
+}
+
+.left div {
+    background-image: url(../../assets/arrows.png);
+    background-position-x: 23px;
+    width: 23px;
+    height: 36px;
+}
+
+.left:hover {
+    background: linear-gradient(to right, rgba(171, 218, 244, 0.3) 5%, rgba(171, 218, 244, 0) 95%);
+}
+
+.right {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.3) 95%);
+    left: 940px;
+}
+
+.right div {
+    background-image: url(../../assets/arrows.png);
+    width: 23px;
+    height: 36px;
+}
+
+.right:hover {
+    background: linear-gradient(to right, rgba(171, 218, 244, 0) 5%, rgba(171, 218, 244, 0.3) 95%);
+}
+
+.thumb {
+    margin: 12px 2px;
+    width: 15px;
+    height: 9px;
+    border-radius: 2px;
+    transition: background-color 0.2s;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    cursor: pointer;
+}
+
+.thumb:hover {
+    background-color: hsla(202, 60%, 100%, 0.3);
+}
+
+.selected-thumb {
+    background-color: hsla(202, 60%, 100%, 0.4);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+      }
+    
+      100% {
+        opacity: 0;
+      }
+}
+
+.fadeIn {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.fadeOut {
+    animation: fadeOut 0.3s ease forwards;
+    z-index: 99;
+}

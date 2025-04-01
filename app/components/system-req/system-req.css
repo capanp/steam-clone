@@ -1,0 +1,45 @@
+.system-req-container {
+    display: flex;
+    justify-content: space-between;
+    color: #bcc6cd;
+    margin: 10px 0 30px 0;
+}
+
+.system-req {
+    width: 295px;
+}
+
+.recommed-system-req {
+    width: 295px;
+}
+
+.system-req ul, .recommed-system-req ul {
+    display: block;
+}
+
+.system-req-header-text {
+    color: #61686D;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 4px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.system-req ul li, .recommed-system-req ul li {
+    margin: 2px 0px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #acb2b8;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 4px;
+}

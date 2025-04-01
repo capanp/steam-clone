@@ -1,0 +1,14 @@
+{
+    "os": "Windows 10 64-bit",
+    "cpu": "Intel Core i5-7500 | AMD Ryzen 3 1200",
+    "ram": "8 GB RAM",
+    "gpu": "NVIDIA GeForce GTX 1050 Ti | AMD Radeon RX 560",
+    "directx": "Sürüm 12",
+    "storge": "50 GB kullanılabilir alan",
+    "recOs": "Windows 10 64-bit",
+    "recCpu": "Intel Core i7-8700 | AMD Ryzen 5 3600",
+    "recRam": "16 GB RAM",
+    "recGpu": "NVIDIA GeForce GTX 1070 | AMD Radeon RX 5700",
+    "recDirectx": "Sürüm 12",
+    "recStorge": "50 GB kullanılabilir alan"
+}

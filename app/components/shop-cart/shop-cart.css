@@ -1,0 +1,32 @@
+.shop-cart-container {
+    display: flex;
+    justify-content: right;
+    width: 940px;
+    margin: 5px;
+}
+
+.shop-cart {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background: #5c7e10;
+    text-transform: none;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 0px 20px;
+    border-radius: 1px;
+}
+
+.shop-cart:hover {
+    background: #7ea64b;
+}
+
+.shop-cart img {
+    margin-right: 3px;
+}
+
+.empty-space {
+    height: 20px;
+}

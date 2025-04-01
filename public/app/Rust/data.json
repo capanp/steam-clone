@@ -1,0 +1,16 @@
+{
+  "description": "Rust, Facepunch Studios tarafından geliştirilen bir hayatta kalma oyunudur. Açık dünyada kaynak toplayın, barınaklar inşa edin ve diğer oyunculara karşı hayatta kalın.",
+  "releaseDate": "08 Feb 2018",
+  "developer": "Facepunch Studios",
+  "publisher": "Facepunch Studios",
+  "tags": [
+    "Survival",
+    "Multiplayer",
+    "Open World",
+    "Crafting",
+    "PvP",
+    "+"
+  ],
+  "metacritic": "69",
+  "imageCount": 10
+}

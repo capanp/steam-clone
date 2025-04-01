@@ -1,0 +1,14 @@
+{
+    "os": "Windows 10 64-bit",
+    "cpu": "Intel Core i5-4690 | AMD FX 8350",
+    "ram": "8 GB RAM",
+    "gpu": "NVIDIA GeForce GTX 970 | AMD Radeon RX 480",
+    "directx": "Sürüm 11",
+    "storge": "150 GB kullanılabilir alan",
+    "recOs": "Windows 10 64-bit",
+    "recCpu": "Intel Core i7-4770K | AMD Ryzen 5 1500X",
+    "recRam": "16 GB RAM",
+    "recGpu": "NVIDIA GeForce GTX 1060 | AMD Radeon RX 580",
+    "recDirectx": "Sürüm 11",
+    "recStorge": "150 GB kullanılabilir alan"
+}

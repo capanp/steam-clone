@@ -1,0 +1,215 @@
+.video-container {
+    position: relative;
+}
+
+.html5_video_overlay {
+    position: absolute;
+    bottom: 4px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    text-align: left;
+}
+
+.html5_video_overlay .play_button.play {
+    background-image: url("/play_button.png");
+}
+
+.html5_video_overlay .play_button.pause {
+    background-image: url("/pause_button.png");
+}
+
+.html5_video_overlay .play_button {
+    width: 19px;
+    height: 19px;
+    margin: 1px;
+    float: left;
+}
+
+.html5_video_overlay .control_container {
+    background-color: #2c2b28;
+    margin: 1px;
+    height: 19px;
+    margin-left: 21px;
+}
+
+.html5_video_overlay .fullscreen_button {
+    height: 19px;
+    width: 19px;
+    margin-right: 3px;
+    background-image: url("/fullscreen_button.png");
+    float: right;
+}
+
+.html5_video_overlay .time {
+    color: #9d9d9d;
+    font-size: 10px;
+    line-height: 19px;
+    margin-right: 5px;
+    float: right;
+}
+
+.html5_video_overlay .volume_icon {
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    display: inline-block;
+    background-image: url("/volume_icon.png");
+}
+
+.html5_video_overlay .volume_icon.muted {
+    background-image: url("/volume_muted_icon.png");
+}
+
+.html5_video_overlay .volume_icon {
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    display: inline-block;
+    background-image: url("/volume_icon.png");
+}
+
+.html5_video_overlay .volume_slider {
+    width: 80px;
+    height: 19px;
+    display: inline-block;
+    margin-left: 5px;
+    background-image: url("/volume_slider.png");
+    position: relative;
+}
+
+.html5_video_overlay .autoplay_checkbox.checked {
+    background-image: url("/checkbox_icon.png");
+}
+.html5_video_overlay .autoplay_checkbox {
+    width: 11px;
+    height: 11px;
+    margin: 4px;
+    display: inline-block;
+    background-image: url("/checkbox_off_icon.png");
+    margin-left: 15px;
+}
+
+.html5_video_overlay .volume_slider .volume_handle {
+    position: absolute;
+    width: 4px;
+    height: 19px;
+    background-image: url("/volume_handle_icon.png");
+}
+
+.html5_video_overlay .autoplay_label {
+    font-size: 10px;
+    line-height: 19px;
+    display: inline-block;
+    vertical-align: top;
+    color: #c6d4df;
+}
+
+.html5_video_overlay .progress_bar_wrapper {
+    position: absolute;
+    bottom: 0px;
+    top: 21px;
+    left: 0px;
+    right: 0px;
+    background-color: #2c2b28;
+}
+
+.html5_video_overlay .progress_bar_container {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 1px;
+}
+
+.html5_video_overlay .progress_bar_background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    bottom: 0px;
+    background-color: #595959;
+}
+
+.html5_video_overlay .progress_bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    bottom: 0px;
+    background-color: #6f9fc8;
+    transition: width 0.2s ease-out;
+}
+
+
+
+
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #000;
+  }
+  
+  .video-container:-webkit-full-screen {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+  }
+  
+  .video-container:-moz-full-screen {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+  }
+  
+  .video-container:-ms-fullscreen {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+  }
+  
+  .video-container:fullscreen {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+  }
+  
+  .video-container video {
+    width: 100%;
+    object-fit: contain; /* Videoyu orantılı şekilde sığdırır */
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .html5_video_overlay {
+    /* ... diğer stiller ... */
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .html5_video_overlay.hidden {
+    transform: translateY(35px);
+  }
+  
+  /* Tüm kontrol elementlerine pointer event'leri ekle */
+  .html5_video_overlay > * {
+    pointer-events: auto;
+  }
+  
+  .video-container:hover .html5_video_overlay,
+  .video-container:focus-within .html5_video_overlay {
+    transform: translateY(0);
+  }

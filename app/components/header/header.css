@@ -1,0 +1,227 @@
+.store-header {
+    width: 940px;
+    background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    height: 35px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item {
+    position: relative;
+    align-content: center;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    height: 35px;
+    padding: 0 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.header-item:hover {
+    background: linear-gradient(90deg, rgba(33, 162, 255, 0.25) 0%, rgba(33, 162, 255, 0.15) 50%, rgba(50, 50, 51, 0) 100%);
+}
+
+/* Tooltip hover'da fade-in ile görünür */
+.header-item:hover .popup-menu,.header-item:hover .popup-header-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header-item .popup-menu, .header-item:hover .popup-header-menu {
+    top: 35px;
+}
+
+.input-space {
+    display: flex;
+    padding: 3px 4px 2px 4px;
+    height: 30px;
+}
+
+.input-box {
+    display: flex;
+    background-color: #316282;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
+    width: 194px;
+
+    overflow: hidden;
+}
+
+.input-box input {
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+    text-indent: 14px;
+
+    color: rgb(238, 238, 238);
+    background-color: transparent;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+
+    font-size: 14px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.input-box input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 1; /* Firefox */
+}
+
+.input-box:hover {
+    background-image: none;
+    border: 1px solid #4c9acc;
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.0);
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.left-header {
+    width: 210px;
+    left: -255px;
+    position: absolute;
+}
+
+.gift-card-header img {
+    margin-bottom: 6px;
+}
+
+.gift-card-header:first-of-type h2 {
+    margin-bottom: 25px;
+}
+
+.gift-card-header:first-of-type::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: -30px;
+    left: -100px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(135deg, #2286f9 28%, #d0266f 35%);
+    -webkit-mask: radial-gradient(circle at 48% 19%, black 2%, transparent 20%);
+    mask: radial-gradient(circle at 48% 19%, black 2%, transparent 20%);
+}
+
+.basic-header h2 {
+    color: #536f86;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 20px 0 7px 0;
+}
+
+.left-header-text {
+    color: #88bde9;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.left-header-text:hover {
+    color: white;
+}
+
+.left-header-des {
+    text-transform: none !important;
+    color: #a4b3c4;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.basic-header p {
+    width: fit-content;
+    color: #7A8B9D;
+    font-size: 13px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 2px 0;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.basic-header p:hover {
+    color: #66c0f4;
+}
+
+@font-face {
+    font-family: Motiva Sans;
+    src: url(../../fonts/MotivaSansThin.ttf);
+    font-weight: 300;
+}
+
+
+
+.search {
+    position: relative;
+}
+
+.suggestions-container {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    max-width: 580px;
+    z-index: 99999;
+    color: #c6d4df;
+    font-size: 12px;
+    background: #3D4450;
+}
+
+.suggestions-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #DCDEDF;
+    padding: 4px 8px 4px 8px;
+    box-sizing: border-box;
+    width: 300px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.suggestion-item:hover .suggestion-name {
+    color: #3D4450;
+}
+
+.suggestion-item:hover {
+    background: #dcdedf;
+}
+
+.suggestion-name {
+    font-weight: 500;
+    padding: 0 0 0 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #f5f5f5;
+    font-size: 14px;
+}
