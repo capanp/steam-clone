@@ -11,9 +11,9 @@ Steam clone built with Next.js, uses firebase auth and rest api for login and ap
   - Seo support, Metadata Generation.
 
 ### Run
-`git clone https://github.com/capanp/steam-clone`
-`node run dev` - Run local and change what you want.
-`node build` - For unit test and deploy your app vercel etc.
+  - `git clone https://github.com/capanp/steam-clone`
+  - `node run dev` - Run local and change what you want.
+  - `node build` - For unit test and deploy your app vercel etc.
 
 https://steam-klon.vercel.app/
 
