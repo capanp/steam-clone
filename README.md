@@ -1,6 +1,6 @@
 # Next.js Steam Clone
 
-Steam clone built with Next.js, uses auth and firebase rest api for login and app pricing, apps are managed via serverless jsons.
+Steam clone built with Next.js, uses firebase auth and rest api for login and app pricing, apps are managed via serverless jsons.
 
 ### Features
   - Login, Register
