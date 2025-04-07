@@ -2,7 +2,7 @@
 
 Steam clone built with Next.js, uses auth and firebase rest api for login and app pricing, apps are managed via serverless jsons.
 
-##Features
+### Features
   - Login, Register
   - App Search
   - Dynamic App Page
